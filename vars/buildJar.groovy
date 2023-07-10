@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-def ca ll(){
+def call(){
     echo "building the application..."
     sh 'mvn package'
 }
